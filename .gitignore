@@ -1,0 +1,47 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Database credentials
+config/database.php
+mpesa/config.php
+
+# Logs
+*.log
+callback_log.txt
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Local development files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.swp
+
+db.sql
+database_upgrade.sql
+
+# Backup files
+*_backup.php
+*backup*.php
+
+# Testing scripts
+/test_*.php
+/test_db.php
+/test_pdo.php
+/test_mpesa_auth.php
+/password_hash.php
+/mpesa/test*.php
+
